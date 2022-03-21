@@ -14,13 +14,14 @@ body {
     margin: 0px;
 }
 
-a {
-    text-decoration: none;
-}
-
 p {
     color: var(--orchid);
     text-align: center;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 h1, h2, h3, a {
@@ -80,11 +81,18 @@ nav ul li a {
     
 }
 /*end of nav*/
-
 #container {
     display: flex;
     flex-wrap: wrap;
     margin: 0 40px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 80%;
+    flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .left {
@@ -95,20 +103,12 @@ nav ul li a {
     margin: 10px auto;
     padding-right: 20px;
 }
-   
-.right {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 80%;
-    flex-wrap: wrap;
-    padding: 20px 0;
-}
 
-#container div:nth-child(2) {
+#container .right.aboutme {
     justify-content: left;
 }
 
-#container div:nth-child(2) p {
+#container .right.aboutme p {
     margin-left:20px;
     text-align: left;
 }
@@ -172,7 +172,6 @@ nav ul li a {
     box-shadow: 10px 10px rgba(0, 0, 0, .5); 
 }
 /*end of work section*/
-
 
 .right.footer {
     justify-content: right;
