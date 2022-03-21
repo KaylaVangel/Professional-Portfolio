@@ -109,3 +109,16 @@ nav ul li a {
     opacity: .5;
 }
 /*end of work section*/
+
+.right.footer {
+    justify-content: right;
+    align-content: space-evenly;
+    justify-content: space-around;
+}
+
+.right.footer h3 {
+    display: flex;
+    padding: 0px 20px;
+    margin: 0 10px;
+    border-bottom: 2px solid var(--orange);
+}
