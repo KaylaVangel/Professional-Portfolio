@@ -129,7 +129,50 @@ nav ul li a {
 .skills:hover {
     opacity: .5;
 }
+
+.skills.large {
+    background-image: url("./puzzle.jpg");
+    flex: 1 1 100%;
+    height: 600px;
+    background-position-y: -90px;
+   
+}
+
+.skills.run {
+    background-image: url("./run.jpg");
+    background-position-y: -70px;
+}
+
+
+.skills.wed {
+    background-image: url("./wedding.jpg");
+    background-position-y: -178px;
+}
+
+.skills.rob {
+    background-image: url("./rob.jpg");
+    background-position-y: -10px;
+}
+
+
+.skills.urban {
+    background-image: url("./urban.jpg");
+    background-position-y: -50px;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    height:fit-content;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    background-color: var(--orange);
+    box-shadow: 10px 10px rgba(0, 0, 0, .5); 
+}
 /*end of work section*/
+
 
 .right.footer {
     justify-content: right;
