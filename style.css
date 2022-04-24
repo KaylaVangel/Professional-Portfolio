@@ -138,8 +138,8 @@ nav ul li a {
    
 }
 
-.skills.run {
-    background-image: url("./run.jpg");
+.skills.flight {
+    background-image: url("./flight.jpg");
     background-position-y: -70px;
 }
 
